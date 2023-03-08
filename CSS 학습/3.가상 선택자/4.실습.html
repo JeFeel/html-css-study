@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    /*
+        /*
         1. id="list"인 요소에 <li> 요소중  
             홀수번째 요소만 선택후 배경색상 yellow 적용            
         2. id="list"인 요소에 <li> 요소중   
@@ -34,12 +34,15 @@
             color: red;
         }
         #list li:last-child {
-          color: green;
+          color: limegreen;
+        }
+        #list li:nth-child(4) {
+          color: turquoise;
         }
         #list li:nth-child(2) {
           font-style: italic;
         }
-
+        /* nth-child 괄호에 n 방정식은 n이 먼저 나와야됨!! */
         #list li:nth-child(-n+2) {
           border: 2px dotted aqua;
         }

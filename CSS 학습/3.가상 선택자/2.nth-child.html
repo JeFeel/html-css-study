@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    #fruits li {
+      width: fit-content;
+    }
+    
     #fruits li:first-child {
       color: red;
     }
@@ -27,6 +31,7 @@
 
     #fruits li:not(.orange) {
       font-style: italic;
+      font-weight: bold;
     }
 /* main의 후손 중에 셋째가 p이면 css 적용 */
     .main p:nth-child(3)  {
@@ -54,7 +59,6 @@
       <p>안녕4</p>
       <p>안녕5</p>
       <h1>안녕6</h1>
-
   </section>
 </body>
 </html>
