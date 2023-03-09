@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../common.css">
+  <style>
+    .garden {
+      border: 4px double gray;
+      width: 800px;
+      margin: 100px auto;
+      text-align: center;
+    }
+    
+    .garden h1 {
+      font-family: cursive;
+      background-color: rgb(196, 196, 196);
+      border-bottom: 4px solid lightgray;
+      padding: 15px;
+      font-size: 2em;
+    }
+    .garden h2{
+      background: #3f3e3e;
+      color: white;
+      padding: 10px;
+      border-bottom: 5px solid lightgray;
+    }
+    .garden .content {
+      background: gray;
+      padding: 20px 5px;
+    }
+    .garden .content .flower {
+      margin: 5px;
+    }
+    .garden .content .flower p{
+      width: 23.5%;
+      height: 300px;
+      border: 2px solid yellow;
+      margin: 5px;
+      float: left;
+      background: no-repeat center 10px / 90% 50%;
+      padding-top: 180px;
+      color: rgb(62, 60, 60);
+    }
+    .garden .content .flower p:first-child{
+      background-color: red;
+      background-image: url('../../img/tulip.jpg')
+    }
+    .garden .content .flower p:nth-child(2){
+      background-color: violet;
+      background-image: url('../../img/jebi.jpg')
+    }
+    .garden .content .flower p:nth-child(3){
+      background-color: orange;
+      background-image: url('../../img/hobak.jpg')
+    }
+    .garden .content .flower p:last-child{
+      background-color: yellow;
+      background-image: url('../../img/sunflower.jpg')
+    }
+  </style>
+</head>
+<body>
+  <div class="garden">
+    <h1>나의 아름다운 정원</h1>
+    <h2>사람들은 아마 자신에게 자신감을 복돋워 주는 표정 있는 꽃들을 선호할 것이다</h2>
+    <nav class="content">
+      <div class="flower clearfix">
+        <p>너무 화려하지 않으며 고귀한 느낌을 가지고 있다.
+          붉은 색이 단연 으뜸이며 한 송이만 있어도 빼어나다.</p>
+        <p>드물게 푸른색을 띠고 있으며 작지만 시원해 보이는
+          어린 꽃이라고 할 수 있다. 여럿이 함께 있을 때 더욱 아름답다.</p>
+        <p>색도 모양도 화려하며 이름과 걸맞지 않게 아름다운 꽃으로
+          매우 완숙한 이미지를 풍기는 꽃이다.</p>
+        <p>색도 모양도 화려하며 이름과 걸맞지 않게 아름다운 꽃으로
+          매우 완숙한 이미지를 풍기는 꽃이다.</p>
+      </div>
+    </nav>
+  </div>
+</body>
+</html>
