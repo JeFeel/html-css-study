@@ -17,8 +17,7 @@
       /* background-image: url('../../img/sky.jpg'); */
       /* 사진이 더 커서 이미 짤린 채로 박스에 들어감 */
 
-      /*                 w    h */
-      /* 하나만 쓰면 다른 쪽은 비율적용 */
+      /*                 w    h */ /* 하나만 쓰면 다른 쪽은 비율적용 */
       /* background-size: 150px 100px;
       background-repeat: no-repeat; */
 
@@ -26,8 +25,9 @@
       /* background-position: left bottom; */
 
       background: url('../../img/sky.jpg') orange 
-      no-repeat  150px 100px / 200px 100px;
-      /* 슬래시 기준으로 앞이 position 뒤가 size */
+      no-repeat left / contain ;
+      /* 슬래시 기준으로 앞이 position 뒤가 size  */
+      /* 150px 100px /200px 100px;*/
     }
   </style>
 </head>
