@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box{
+      width: 550px;
+      height: 350px;
+      border: 4px dashed gray;
+      margin: 50px auto 0;
+
+      /* 배경 속성 */
+      /* background-color: orange; */
+      /* background-image: url('../../img/sky.jpg'); */
+      /* 사진이 더 커서 이미 짤린 채로 박스에 들어감 */
+
+      /*                 w    h */
+      /* 하나만 쓰면 다른 쪽은 비율적용 */
+      /* background-size: 150px 100px;
+      background-repeat: no-repeat; */
+
+      /*                    x축 y축 */
+      /* background-position: left bottom; */
+
+      background: url('../../img/sky.jpg') orange 
+      no-repeat  150px 100px / 200px 100px;
+      /* 슬래시 기준으로 앞이 position 뒤가 size */
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
