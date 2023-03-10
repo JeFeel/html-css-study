@@ -1,4 +1,5 @@
 @import url('../../common.css');
+
 /* base layout */
 body{
   background: #aaa;
@@ -25,21 +26,22 @@ body{
 #wrapper header h1 span{
   font-size: 20px;
   display: block;
-  margin-top: 10px;
+  /* 블록화해서 줄을 나눔 */
+  margin-top: 20px;
 }
 #wrapper header h2{
   background: #ccc;
   padding: 5px 0;
 }
 /* header end, container start */
-#wrapper .container >* {
+#wrapper .container > * {
+  /* .container의 자식 태그에게 전부 적용 */
   float: left;
   background: #fff;
 }
 /* >.side-menu */
 .container .side-menu {
   width: 25%;
-  
 }
 .container .side-menu h3 {
   font-size: 1.3em;
@@ -133,6 +135,7 @@ body{
 }
 .container .banner .link li span {
   font-weight: 400;
+  /* 일반 크기로 돌려줌 */
 }
 
 /* footer style */
