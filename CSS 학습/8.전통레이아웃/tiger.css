@@ -8,43 +8,43 @@ body{
 }
 
 #wrapper {
-  width: 60%;
-  /* width: 50% */
+  /* width: 60%; */
+  width: 50%;
   margin: 0 auto;
 } 
 /* header style */
 header {
-  background: rgb(4, 49, 86);
-  /* background: #123456; */
-  /* padding: 10px;
-  color: #fff; */
+  /* background: rgb(4, 49, 86); */
+  background: #123456;
+  padding: 10px;
+  color: #fff;
 
-  padding:20px 30px;
+  /* padding:20px 30px; */
 }
 
 header h1 {
   font-size: 30px;
   font-weight: 700;
   font-family: '휴먼모음T', cursive;
-  /* color: #cc0; */
-  color: gold;
+  color: #cc0;
+  /* color: gold; */
   text-align: center;
   /* padding-left: 50px; */
 }
 header h1 strong{
   color: #fff;
-  /* font-size: 3em; */
-  font-size: 5em;
+  font-size: 3em;
+  /* font-size: 5em; */
 }
 header h1 span{
-  font-size: 2.5em;
-  /* font-size: 1.5em; */
+  /* font-size: 2.5em; */
+  font-size: 1.5em;
 }
 header h1 em{
-  font-size: 3.5em;
-  /* font-size: 2em; */
-  /* color: #ccc; */
-  color: silver; 
+  /* font-size: 3.5em; */
+  font-size: 2em;
+  color: #ccc;
+  /* color: silver;  */
 }
 /* end header style */
 /* begin container style */
