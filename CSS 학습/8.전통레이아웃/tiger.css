@@ -1,0 +1,103 @@
+@import url('../../common.css');
+body{
+  background: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  font-family: '굴림', Gulim, serif;
+}
+
+#wrapper {
+  width: 60%;
+  /* width: 50% */
+  margin: 0 auto;
+} 
+/* header style */
+header {
+  background: rgb(4, 49, 86);
+  /* background: #123456; */
+  /* padding: 10px;
+  color: #fff; */
+
+  padding:20px 30px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: '휴먼모음T', cursive;
+  /* color: #cc0; */
+  color: gold;
+  text-align: center;
+  /* padding-left: 50px; */
+}
+header h1 strong{
+  color: #fff;
+  /* font-size: 3em; */
+  font-size: 5em;
+}
+header h1 span{
+  font-size: 2.5em;
+  /* font-size: 1.5em; */
+}
+header h1 em{
+  font-size: 3.5em;
+  /* font-size: 2em; */
+  /* color: #ccc; */
+  color: silver; 
+}
+/* end header style */
+/* begin container style */
+#wrapper .container{
+  /* 정적인 부분을 베이스로 삼아서 작업해보자 */
+  background: #ccc;
+  /* height: 70%; */
+}
+#wrapper .container .menu {
+  width: 20%;
+  padding: 20px;
+  float: left;
+}
+#wrapper .container .menu li{
+  /* padding: 10px; */
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+.container .menu li a:hover{
+  color: #662;
+  border-bottom: 1px dashed #662;
+}
+
+#wrapper .container .content {
+  float: right;
+  width: 80%;
+  /* height: 100%; */
+  background: #fff;
+}
+#wrapper .container .content h2 {
+  background: #800;
+  color: #ff0;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: '궁서',cursive;
+  /* font-size: 1.5em; */
+  padding: 5px 20px;
+  /* padding: 20px 30px; */
+}
+
+#wrapper .container .content p{
+  padding: 20px;
+  text-align: justify;
+  /* line-height: 1.6; */
+}
+/* end of container style */
+/* begin of footer style */
+#wrapper footer{
+  /* background: #aaa; */
+  background: rgb(163, 163, 163);
+  padding: 10px 20px;
+}
+footer address{
+  color: #000;
+}
+/* end of footer */
