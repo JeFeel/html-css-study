@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background: red;
+      margin: 50px;
+
+
+      /* 전환은 원본 태그에 작성*/
+      /* transition-property: width;
+      transition-duration: 0.5s; */
+
+      /* transition-property: all;
+      transition-duration: 1s; */
+
+      transition-property: width, background;
+      transition-duration: 1s, 2s;
+      /* 각각 시간 따로 적용 */
+
+      /* transition-delay: 1s; */
+      /* 1초 있다가 전환 */
+
+      transition-timing-function: steps(5);
+      /* 기본값은 ease */
+
+      transition: all 1s 0.5s linear;
+      /* 모든걸 1초에 걸쳐 진행, 2초 딜레이 균일한 속도로 */
+    }
+
+    .box:hover{
+      width: 300px;
+      background: skyblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
