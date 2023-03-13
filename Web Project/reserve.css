@@ -1,0 +1,170 @@
+body {
+  /* background: greenyellow; */
+  /* height: 100%; */
+  font-size: 14px;
+}
+
+/* banner style */
+.main .banner {
+  background: url('top.png') no-repeat center/ cover;
+  height: 300px;
+  border: 0;
+  outline: 0;
+}
+.main .banner .intro{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0;
+}
+.main .banner .intro .title{
+  font-weight: 700;
+  font-size: 3em;
+  word-spacing: -0.2em;
+  margin-bottom: 30px;
+}
+.main .banner .intro .sub{
+  font-size: 16px;
+}
+
+
+/* bar style */
+.main .bar{                                   
+  background: lightcyan; 
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+
+
+/* content style */
+.main .content{
+  /* background: lightpink; */
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+}
+
+.main .content h3{
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.main .content .backup {
+  border: 1px solid #d9d9d9;
+  padding: 40px;
+  
+}
+.main .content .backup li {
+  float: left;
+  /* border: 1px solid #ccc;  */
+  width: 30%;
+  /* height: fit-content; */
+  margin: 0 1%;
+  /* padding: 20px; */
+  text-align: center;
+}
+.main .content .backup li .icon{
+  border: 0;
+  background-color: #fafaf8 !important;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 10px auto;
+}
+.main .content .backup li .icon1 {
+  background: url('visut-guide01.png') no-repeat center/ 40px;
+}
+.main .content .backup li .icon2 {
+  background: url('visut-guide02.png') no-repeat center/ 40px;
+}
+.main .content .backup li .icon3 {
+  background: url('visut-guide03.png') no-repeat center/ 40px;
+}
+.main .content .backup li h4 {
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.main .content .backup li h5 {
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+/* .main .content .backup .space{
+  background: url('guide-arrow.png') no-repeat center / cover ;
+
+  width: 2%;
+  height: 50px;
+  float: left;
+  margin-top: 95px;
+} */
+
+.main .content .backup li:nth-child(2)::before,
+.main .content .backup li:nth-child(3)::before{
+  content: '';
+  background: url('guide-arrow.png') no-repeat center / 50px;
+  /* border: 1px solid #000; */
+  width: 7%;
+  height: 50px;
+  float: left;
+  margin-top: 95px;
+}
+.main .content .backup a{
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 15px 30px;
+  transition: 0.5s;
+}
+.main .content .backup a:hover{
+  background: #000;
+  color: #fff;
+}
+
+.main .content .gap {
+  margin-top: 20px;
+}
+.main .content .list {
+  border: 1px solid #d9d9d9;
+  padding: 36px 30px;
+  font-size: 1.1em;
+  line-height: 2;
+}
+
+.main .content .list li {
+  padding-left: 20px;
+}
+.main .content .list li span {
+  color: #5aafae;
+}
+
+.main .content .list li a{
+  text-decoration: underline #5aafae;
+}
+.main .content .gap2 {
+  margin-bottom: 40px;
+}
+.main .content .bottom {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main .content .bottom a{
+  border: 1px solid #5aafae;
+  color: #5aafae;
+  border-radius: 5px;
+  width: 150px;
+  line-height: 40px;
+  margin: 0 5px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.main .content .bottom a:hover{
+  color:#fff;
+  background: #5aafae;
+}

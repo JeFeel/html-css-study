@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="reserve.css">
 </head>
 <style>
 
@@ -29,34 +30,60 @@
       </select>
     </nav>
   </header> -->
-
   <container>
-    <divc class="banner">
-      <h1 class="title">방문 예약</h1>
-      <h2 class="subtitle">Visit Reservations</h2>
-    </divc> 
-    <div class="gap">
-      <div></div>
-      <div></div>
-    </div>
-    <content>
+  <div class="main">
+    <div class="banner">
+      <div class="intro">
+        <h1 class="title">방문 예약</h1>
+        <h2 class="sub">Visit Reservations</h2>
+      </div>
+    </div> 
+    <nav class="bar">
+      <div>icon</div>
+      <div>list</div>
+    </nav>
+    <div class="content">
       <h3>고객님의 원활한 서비스 진행을 위한 방문 전 준비사항 안내입니다.</h3>
-      <div class="backup"></div><br>
+      <ul class="backup clearfix">
+        <li>
+          <div class="icon icon1"></div>
+          <h4>나의 iPhone 찾기 해제</h4>
+          <h5>설정 > 상단의 이름 > iCloud ><br>
+            나의 iPhone 찾기 > 끔</h5>
+        </li>
+        <!-- <div class="space"></div> -->
+        <li>
+          <div class="icon icon2"></div>
+          <h4>백업</h4>
+          <h5>iTunes / iCloud를 이용하여 고객님의 소중한<br>
+            데이터를 반드시 백업 해주세요.</h5>
+            <a href="#" class="more"><span>자세히 알아보기</span></a>
+        </li>
+        <!-- <div class="space"></div> -->
+        <li>
+          <div class="icon icon3"></div>
+          <h4>최신 소프트웨어 업데이트</h4>
+          <h5>iPhone : 설정 > 일반 > 소프트웨어 업데이트<br>
+            iTunes : 바로가기 버튼 클릭</h5>
+        </li>
+      </ul>
+      <div class="gap"></div>
       <ul class="list">
         <li>1.신분증 (센터 방문고객)</li>
         <li>2.통신사에서 발급하는 "가입 증명서" (환불, 전원불량 등)</li>
         <li>3.제품 구매 "영수증"</li>
         <li>4.제품 수리 보호자 동의서 (미성년자 방문)</li>
-        <li>※ 보다 자세한 내용은 <a href="#">방문 전 준비사항</a>에서 확인 부탁드립니다.</li>
-        <li>※ 지구를 위한 작지만 큰 노력, 서비스내역서를 이메일로 수령하시어 환경을 위한 작은 움직임에 동참해주세요</li>
+        <li>※ 보다 자세한 내용은 <a href="#"><span>방문 전 준비사항</span></a>에서 확인 부탁드립니다.</li>
+        <li><span>※ 지구를 위한 작지만 큰 노력, 서비스내역서를 이메일로 수령하시어 환경을 위한 작은 움직임에 동참해주세요</span></li>
       </ul>
-      <div>  
-        <button value="reserve">예약등록</button>
-        <button value="confirm">예약확인 및 취소</button>
+      <div class="gap2"></div>
+      <div class="bottom"> 
+          <a href="#">예약등록</a>
+          <a href="#">예약확인 및 취소</a>   
       </div>
-    </content>
-  </container>
-  
+    </div>
+  </div>
+
   <!-- <footer>
     <div></div>
     <h4>개인정보 처리 방침</h4>
@@ -65,5 +92,6 @@
     <div>본점 : 경기도 남양주시 수동면 남가로 1595-4</div>
     <div>Copyright ⓒ TUVA All Rights Reserved.</div>
   </footer> -->
+  </container>
 </body>
 </html>
