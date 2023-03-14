@@ -12,24 +12,52 @@
 
 </style>
 <body>
-  <!-- <header>
-    <nav>
-      <div></div>
-      <ul>
-        <li><a href="#">Apple 공인 서비스</a></li>
-        <li><a href="#">고객의소리</a></li>
-        <li><a href="#">채용</a></li>
-        <li><a href="#">회사안내</a></li>
-        <li><a href="#">환경</a></li>
-      </ul>
-      <select id="langlist">
-        <option value="kor">한국어</option>
-        <option value="eng">영어</option>
-        <option value="jap">日本語</option>
-        <option value="chn">中文</option>
-      </select>
-    </nav>
-  </header> -->
+  <header class="clearfix">
+    <div class="whole">
+        <div class="title">
+            <a href="#"><span>tuva</span></a>
+        </div>
+        <div class="nav clearfix">
+            <ul class="out clearfix">
+                <li class="b"><a href="#" class="B">Apple 공인 서비스</a>
+                    <ul class="detail">
+                        <li><a href="#">방문전 준비사항</a></li>
+                        <li><a href="#">방문예약</a></li>
+                        <li><a href="#">위치안내</a></li>
+                        <li><a href="#">서비스 가격</a></li>
+                        <li><a href="#">픽업서비스</a></li>
+                        <li><a href="#">대량(기업)수리문의</a></li>
+                    </ul>
+                </li>
+                <li class="b"><a href="#" class="B">고객의 소리</a>
+                    <ul class="detail">
+                        <li><a href="#">칭찬합니다</a></li>
+                        <li><a href="#">개선해주세요</a></li>
+                    </ul>
+                </li>
+                <li class="b"><a href="#" class="B">채용</a></li>
+                <li class="b"><a href="#" class="B">회사안내</a>
+                    <ul class="detail">
+                        <li><a href="#">ABOUT TUVA</a></li>
+                        <li><a href="#">INTERIOR</a></li>
+                        <li><a href="#">제휴사업 안내</a></li>
+                    </ul>
+                </li>
+                <li class="b"><a href="#" class="B">환경</a></li>
+                <li>
+                    <select id="select language">
+                        <option value="">select language</option>
+                        <option>한국어</option>
+                        <option>English</option>
+                        <option>日本語</option>
+                        <option>中文(简体)</option>
+                        <option>中文(繁體)</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
   <container>
   <div class="main">
     <div class="banner">
@@ -39,8 +67,8 @@
       </div>
     </div> 
     <nav class="bar">
-      <div>icon</div>
-      <div>list</div>
+      <div class="home">icon</div>
+      <div class="list">list</div>
     </nav>
     <div class="content">
       <div class="guide">
@@ -86,14 +114,30 @@
     </div>
   </div>
 
-  <!-- <footer>
-    <div></div>
-    <h4>개인정보 처리 방침</h4>
-    <div>주식회사 투바 | 대표 : 임종완 | 전화 : 1522-6222 | 사업자등록번호 : 207-81-51604 
-      | 통신판매신고 : 제2009-서울광진-0356호</div>
-    <div>본점 : 경기도 남양주시 수동면 남가로 1595-4</div>
-    <div>Copyright ⓒ TUVA All Rights Reserved.</div>
-  </footer> -->
+        <!-- footer -->
+        <div class="total_footer">
+          <div class="sub_footer">
+              <div class="total_logo">
+                  <span class="logo"><!--TUVA--></span>
+                  <p class="top_p">
+                      <a href="#">개인정보 처리 방침</a>
+                  </p>
+                  <p class="mid_p">
+                      <span>주식회사 투바 &nbsp;|&nbsp;</span>
+                      <span>대표 : 임종완 &nbsp;|&nbsp;</span>
+                      <span>전화 : 1522-6222 &nbsp;|&nbsp;</span>
+                      <span>사업자등록번호 : 207-81-51604 &nbsp;|&nbsp;</span>
+                      <span>통신판매신고 : 제2009-서울광진-0356호</span>
+                  </p>
+                  <p class="add_p">
+                      <span>본점 : 경기도 남양주시 수동면 남가로 1595-4</span>
+                  </p>
+                  <p class="copy_p">
+                      <span>Copyright ⓒ TUVA All Rights Reserved.</span>
+                  </p>
+              </div>
+          </div>
+      </div>
   </container>
 </body>
 </html>
