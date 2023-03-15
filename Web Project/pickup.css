@@ -55,9 +55,9 @@ body{
   text-align: center;
 }
 /* .main 콘텐츠 시작 */
-.middle .main {
-  /* border: 1px solid #000; */
-}
+/* .middle .main {
+  border: 1px solid #000;
+} */
 .middle .main .service .img {
   margin: 50px 0;
 }
