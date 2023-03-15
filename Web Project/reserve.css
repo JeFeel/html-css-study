@@ -2,6 +2,7 @@ body {
   /* background: greenyellow; */
   /* height: 100%; */
   font-size: 14px;
+  position: relative;
 }
 /* header */
 header {
@@ -17,6 +18,7 @@ header {
 .whole {
   width: 80%;
   margin: 0 auto;
+  padding-top: 10px;
 }
 header:hover {
   opacity: 1;
@@ -51,6 +53,7 @@ header .nav .out a {
 header .nav .out li.b {
   
   font-weight: 700;
+
   padding-right: 30px;
 }
 header .nav .out li.b a.B:hover {
@@ -90,7 +93,7 @@ header .title a {
   z-index: 3000;
   display: block;
   background-size: 100% auto !important;
-  height: 30px;
+  height: 40px;
 
 }
 header .title span{
@@ -300,4 +303,64 @@ header .title span{
 .total_footer .sub_footer .total_logo p {
   color: #fff;
   line-height: 15px;
+}
+
+/* quickmenu */
+/* .container {
+  position: relative;
+} */
+  .quickmenu {
+  position: fixed;
+  top: 30%;
+  /* position: absolute; */
+  right: 20px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  /* transition: 0.3s ease-in-out; */
+  box-shadow: 0px 0px 12px rgb(0, 0, 0, 30%);
+  background: #fff;
+
+}
+.quickmenu ul {
+  width: 120 px;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ .quickmenu ul li{
+  /* display: flex; */
+  text-align: center;
+  margin-top: 20px;
+  /* transition: 0.3s; */
+}
+
+ .quickmenu ul li .icon{
+  width: 60px;
+  height: 60px;
+  /* border: 1px solid #d9d9d9; */
+  border-radius: 50%;
+  background-color: #fafaf8 !important;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+ .quickmenu ul li .icon1{
+  background: url('quick-ico01.png') no-repeat center / 30px ;
+}
+ .quickmenu ul li .icon2{
+  background: url('quick-ico02.png') no-repeat center / 30px ;
+}
+ .quickmenu ul li .icon3{
+  background: url('quick-ico03.png') no-repeat center / 30px ;
+}
+ .quickmenu ul li .icon4{
+  background: url('kakao_chat.png') no-repeat center / 30px ;
+}
+ .quickmenu ul li:hover .icon{
+  background-color: rgb(222, 220, 220) !important;
+}
+  .quickmenu ul li span{
+  font-size: 12px;
 }
